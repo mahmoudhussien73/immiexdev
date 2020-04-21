@@ -1,0 +1,27 @@
+.countries{
+	
+	&__text{
+		max-width: 40rem;
+		margin-top: 1.5rem;
+	}
+
+	&__country{
+		position: relative;
+		border-radius: 10px;
+		overflow: hidden;
+		margin: .7rem;
+	}
+
+	&__img{
+
+	}
+
+	&__name{
+		position: absolute;
+		color: #fff;
+		bottom: 2rem;
+		left: 50%;
+		transform: translateX(-50%);
+		text-transform: uppercase;
+	}
+}

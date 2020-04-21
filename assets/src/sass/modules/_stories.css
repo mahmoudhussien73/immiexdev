@@ -1,0 +1,40 @@
+.stories{
+	background: url('../img/tra-city.png') no-repeat fixed center;
+	background-color: #f8f9fb;
+
+	&__item{
+		background-color: #fff;
+		padding: 2rem;
+		border-radius: 5px;
+		border: 1px solid #ddd;
+		margin-top: 1rem;
+		box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+
+		&--img{
+			display: inline-block;
+			width: 6rem;
+			border-radius: 50%;
+			vertical-align: middle;
+			overflow: hidden;
+		}
+
+		&--name{
+			display: inline-block;
+			margin-left: 1rem;
+
+			span{
+				font-weight: 600;
+				font-size: 1.2rem;
+			}
+		}
+
+		&--job{
+			
+		}
+
+		&--text{
+			margin-top: 1rem;
+			font-style: italic;
+		}
+	}
+}

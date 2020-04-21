@@ -1,0 +1,47 @@
+.b-m-md{
+	margin-bottom: 1rem;
+
+	@mixin atmedium{
+		margin-bottom: 0;
+	}
+}
+.mr-auto{
+	margin-right: auto;
+}
+.t-b-margin{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+.t-margin{
+	margin-top: 1rem;
+}
+.b-margin{
+	margin-bottom: 1rem;
+}
+.pragraph{
+	line-height: 1.6;
+}
+.align-center{
+	align-items: center;
+}
+.hidden{
+	display: none;
+}
+.border{
+	height: 3px;
+	background-image: url('../img/border.png');
+}
+.text-center{
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+.stories .owl-nav{
+	text-align: center;
+}
+.owl-prev{
+
+}
+.owl-next{
+
+}

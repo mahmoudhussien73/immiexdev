@@ -1,0 +1,7 @@
+$grey: #888;
+$greyDark1: #575757;
+$greyDark2: #666;
+
+.grey{
+	color: $grey;
+}

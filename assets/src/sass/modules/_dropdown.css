@@ -1,0 +1,68 @@
+.dropdown{
+
+	padding: .8rem 0;
+	background-color: #fff;
+	text-align: left;
+	position: absolute;
+	width: 100%;
+	z-index: 10;
+	top: 4rem;
+	left: 0;
+	opacity: 0;
+	visibility: hidden;
+	transform-style: preserve-3d;
+	transform: rotateX(-75deg);
+	transform-origin: 0 0;
+	transition: all .4s;
+
+	&__title{
+		
+	}
+
+	&__subtitle{
+
+	}
+
+	&__img{
+		margin: .8rem 0;
+	}
+
+	&__text{
+		margin-top: .5rem;
+		line-height: 1.6;
+		color: $grey;
+	}
+
+	&__list{
+		list-style: none;
+	}
+
+	&__item{
+		padding: 1rem 0;
+		&:not(:last-child){
+			border-bottom: 1px dotted #aaa;
+		}
+	}
+
+	&__link{
+		color: $grey;
+	}
+}
+
+.dropdown .news{
+	color: $grey;
+	display: flex;
+	padding: 1rem 0;
+	&:not(:last-child){
+		border-bottom: 1px dotted #aaa;
+	}
+	&__img{
+		margin-right: 1rem;
+		width: 7rem;
+		height: 6rem;
+	}
+
+	&__text{
+		line-height: 1.8;
+	}
+}

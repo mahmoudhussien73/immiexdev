@@ -1,0 +1,31 @@
+.shuffle{
+
+	&__list{
+		list-style: none;
+		text-align: center;
+		margin-bottom: 2rem;
+	}
+
+	&__item{
+		display: inline-block;
+		cursor: pointer;
+		padding: 1rem 0;
+
+		&:not(:last-child){
+			margin-right: 1.5rem;
+		}
+	}
+
+	&__span{
+		color: $grey;
+	}
+
+	& .displayed{
+		border-bottom: 2px solid green;
+
+		span{
+			font-weight: 400;
+			color: green;
+		}
+	}
+}
